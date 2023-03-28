@@ -1,0 +1,130 @@
+header {
+    background-color:#f0e1d0;
+    text-align: center;
+    color: #db9600;
+  }
+  .yoga-box {   
+    background-color: #b841c8;
+    color: #92e2e8;
+    background-color: pink;
+    background-size: cover;
+    text-align: center;
+    width: 85%;
+    margin-left: 4em;
+    border-radius: 5px;
+  }
+  .yoga-box h4 {
+    text-decoration: underline;
+  }
+  
+  .meditation-box {
+    border-radius: 5px;
+    background-color: lightblue;
+    color: #ffc800;
+    background-image:url(https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjU1LXNhc2ktMTUuanBn.jpg); 
+    text-align: center;
+    width: 80% ;
+    border-image-width: 100%;
+    margin-left: 2em;
+    font-weight: 500;
+    padding: 20px 60px;
+    font-size: 20px;
+  }
+  
+  .meditation-box h4 {
+    text-decoration: underline;
+    }
+  .meditation-box li:hover {
+    background-color: #da0707;
+    color: white;
+  }   
+  .meditation-box p:hover {
+    background-color: #da0707;
+    color:  white;
+  }
+  .meditation-box  a:hover {
+    color: #d5207a
+  }
+  .meditation-box a {
+    color: white;
+  }
+  .why-box {
+    text-align: left;
+    color: #506600;
+    background-color: gold;
+    width: 95%;
+    margin-left: 1em;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-weight: 500;
+  }
+  .why-box ol:hover {
+    background-color: #f9ea9f;
+  }
+  
+  .types-of-yoga {
+    font-size: 20px;
+    padding-bottom: 10em;
+   border-style: solid;
+    border-width: 2px;
+    margin: 5px 50px 10px;
+    padding: 5px 5px;
+    background-image: url("https://images.pexels.com/photos/5402181/pexels-photo-5402181.jpeg");
+    width: 40%;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    overflow: scroll;
+  }
+  nav {
+   padding-left: 3rem;
+    font-weight: 700;
+    background-color: #f0e1d0;
+    text-align: center;
+  }
+    nav > a {
+      color: #8f148f;
+      text-transform: uppercase;
+      margin-left: 1em;
+      
+  }
+  
+  .img2 {
+   margin: 5px 30%;
+  }
+  nav a:hover {
+   color: gold;
+  }
+  a:hover {
+    color:white;
+  }
+  .types-of-yoga h3:hover {
+  color: #f5efdb;
+  }
+  
+  #yoga p:hover {
+    background-color: pink;
+    color: black;
+  }
+  
+  a {
+  text-transform: uppercase;
+  color: #a7e6fb;
+  }
+  footer {
+    background-color: #f5efdb;
+    padding: 1em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+  }
+  .float-right {
+    float: right;
+  }
+  .float-left {
+    float: left;
+  
