@@ -7,18 +7,26 @@
 
     /*header*/
 #header h1{
-  background-color: rgb(222, 183, 100);
-  color: purple;
-
+  background-color: purple;
+  color: rgb(230, 213, 176);
+ 
+ 
 }
 h1 h2 {
  color: #a300b2;
   font-family: Oswald, sans-serif;
 }
-  
+  #home h2{
+    font-size: 600;
+    color: rgb(145, 94, 28);
+  }
 
 /*navigation style */
-
+#home {
+   text-align: center;
+   background-color: rgb(255, 226, 200);
+  
+}
 #main-nav {
   font-size: 110%;
   letter-spacing: 2px;
@@ -27,16 +35,23 @@ h1 h2 {
 a {
   text-transform: uppercase;
   font-weight: 800;
-
 }
+
+
 #main-nav li {
 float: right;
 list-style-type: none;
-margin-right: 10px;
+margin-right: 15px;
 color:#b003c0 ;
+margin-bottom: 7px;
+text-align: justify;
+
 }
-#main-nav a:hover {
-text-decoration: underline;
+#main-nav  a:hover {
+color:rgb(249, 198, 238)
+}
+#main-nav a {
+  color: rgb(209, 129, 255);
 }
 
 #sec-nav li {
@@ -46,14 +61,14 @@ text-decoration: underline;
   display: inline;
 }
 
-nav a:hover {
-  text-transform: underline;
+#yoga a:hover {
+  color: rgb(246, 144, 255);
 }
  
 /* image */
 
 #hero-img {
-  height: 500px;
+  height: 450px;
   width: 60%;
   background-image: url('../images/hero-image.jpeg');
  background-repeat: no-repeat;
@@ -61,13 +76,14 @@ nav a:hover {
   margin-left: auto;
 background-size: 100%;
 margin-top: 1em;
-margin-bottom: 1em;
+margin-bottom: 5px;
+background-repeat: no-repeat;
 }
 
 #decor-image {
 background-image: url('../images/decor-image.jpeg');
-height: 500px;
-width: 60%;
+height: 350px;
+width: 80%;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 5px;
@@ -100,7 +116,7 @@ margin-top: 1em;
 
  .yoga-box {   
     background-color: rgb(244, 219, 253);
-    color:b#000000;
+    color: rgb(128, 210, 237);
     text-align: center;
     width: 85%;
     margin-left: auto;
@@ -135,9 +151,9 @@ margin-top: 1em;
   color: #f5efdb;
   }
   
-  #yoga p:hover {
+  .types-of-yoga :hover {
     background-color: rgb(249, 198, 238);
-    color: black;
+    color: #922289;
   }
  .float-right {
     float: right;
@@ -157,7 +173,7 @@ margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
    background-size: cover;  
  }
 
@@ -171,23 +187,30 @@ margin-top: 1em;
      margin-right: auto;
      margin-left: auto;
      border-radius: 4px;
+     display: block;
   }
   .meditation-box li {
     letter-spacing: 1px;
     margin-left: 4em;
-    
   }
- 
+  .meditation-box li:hover {
+    background-color: rgb(179, 14, 14);
+    color: silver;
+  }
+ /* footer design*/
   footer {
-    background-color: #ceb04f;
+    background-color: #f4d5b6;
     padding: 1em;
     position: fixed;
     text-align: center;
     width: 100%;
     bottom: 0;
     right: 0;
-    z-index: 3;
-    
+    z-index: 3; 
+  }
+  footer li {
+    display: inline-block;
+    margin-left: 3px;
   }
  
   /*Extra design features*/
