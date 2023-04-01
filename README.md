@@ -24,7 +24,7 @@ _navigation bar_
 - This section is supposed to imply what wethe site does which the slogan targets and the the title is a supportsing factor.
 
 
- -image
+ 
 
  **Landing Image**
 
@@ -62,3 +62,30 @@ _navigation bar_
     - There is a link navigating user to external social media links to help users connect easier to us.
     -  Instagram, Facebook, Twitter
     
+
+      **Deployment**
+
+    -This site was deployed to GitHub pages
+    -Turned the deployment branch into a main 
+    -The page then provided the link.
+
+    -url(https://zoliswasb.github.io/Tranquil-Life/)
+
+      **Credits**
+
+      ***Content***
+
+      -The manner in which the nav bar is stated was taken from Loveruning
+
+      -url(https://code-institute-org.github.io/love-running-2.0/index.html) 
+
+      -The Footer was permanent structure was influenced by Coders Coffehouse
+      -url(unavailable)
+
+  ***Images***
+
+  -All attacted images are from Pixels
+  url(https://www.pexels.com/)
+
+
+
