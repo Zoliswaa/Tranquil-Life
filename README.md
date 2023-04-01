@@ -21,6 +21,8 @@ _navigation bar_
 ![yoga-nav-picture](https://user-images.githubusercontent.com/128863897/229279887-d8b2e9ad-917a-4f6d-9a56-791a3d891b48.png)
 
   **Header**
+  
+![header-main-nav-picture](https://user-images.githubusercontent.com/128863897/229280037-1a378e52-e7fc-4512-be69-f6106eef5d98.png)
 
 - The header contains the site name, the slogan and a navigation bar that helps you gain easier access to the rest of the page.
 - This section is supposed to imply what wethe site does which the slogan targets and the the title is a supportsing factor.
