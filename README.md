@@ -32,7 +32,7 @@ _navigation bar_
 - The landing image gives an visual atmosphere to the site.
 - The image is of 3 indivisuals strecting outdoors.
 
- **About us**
+ **Why us**
  
  - The about us page goes into the reason why to use this site and the advantages. 
  - It also gives a brief statement on who the site could be for.
@@ -55,6 +55,8 @@ _navigation bar_
   - Featured in this section is a basic step-by-step process into going into a meditative state.
   - This gives user enough information to start the process.
   - Featured also is and external link to helps user to go to a more specific search after the steps.
+
+![Meditation-picture](https://user-images.githubusercontent.com/128863897/229279541-ddded6eb-84f2-4532-bfdd-fd0a01d5441e.png)
 
 
     **Footer**
