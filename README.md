@@ -47,15 +47,15 @@ _navigation bar_
 - a nav bar for types of yoga
 - All _Types of yoga_ boxes have attached an external link to a general search of the specfic yoga type selected video content.
 
--image
+![Yoga-picture](https://user-images.githubusercontent.com/128863897/229279439-9266e4d1-0d00-4bc4-a587-9f7e80774549.png)
 
-  **Image**
 
   **Meditation**
 
   - Featured in this section is a basic step-by-step process into going into a meditative state.
   - This gives user enough information to start the process.
   - Featured also is and external link to helps user to go to a more specific search after the steps.
+
 
     **Footer**
 
