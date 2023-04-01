@@ -65,6 +65,8 @@ _navigation bar_
     - There is a link navigating user to external social media links to help users connect easier to us.
     -  Instagram, Facebook, Twitter
     
+    ![Footer-picture](https://user-images.githubusercontent.com/128863897/229279820-15f6da2f-b7ec-4553-830a-1a1393830c54.png)
+
 
       **Deployment**
 
