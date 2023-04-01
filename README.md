@@ -60,4 +60,5 @@ _navigation bar_
 
     - The attached footer is a permenate part of the page which visible throughout the site.
     - There is a link navigating user to external social media links to help users connect easier to us.
-    -  
+    -  Instagram, Facebook, Twitter
+    
