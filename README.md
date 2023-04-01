@@ -24,7 +24,8 @@ _navigation bar_
 - This section is supposed to imply what wethe site does which the slogan targets and the the title is a supportsing factor.
 
 
- 
+ ![home-picture](https://user-images.githubusercontent.com/128863897/229279382-aab9576a-fe9c-4dd1-bf8f-2f523d06e437.png)
+
 
  **Landing Image**
 
