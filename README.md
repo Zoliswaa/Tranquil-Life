@@ -18,6 +18,8 @@ _navigation bar_
 
   The site also offers a navigation bar for the Yoga section to help navigate you through the content for different types of yoga.Which is located 2/3 of the page ,in a horizontal line under the _types-of-yoga_ in the Yoga section.
 
+![yoga-nav-picture](https://user-images.githubusercontent.com/128863897/229279887-d8b2e9ad-917a-4f6d-9a56-791a3d891b48.png)
+
   **Header**
 
 - The header contains the site name, the slogan and a navigation bar that helps you gain easier access to the rest of the page.
