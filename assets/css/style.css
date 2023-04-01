@@ -1,10 +1,23 @@
  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;304;350&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
+ *{
+  margin: 0;
+  padding: 0;
+  border: none;
+ }
+
+    /*header*/
+#header h1{
+  background-color: rgb(222, 183, 100);
+  color: purple;
+
 }
-/*nav */
+h1 h2 {
+ color: #a300b2;
+  font-family: Oswald, sans-serif;
+}
+  
+
+/*navigation style */
 
 #main-nav {
   font-size: 110%;
@@ -14,118 +27,159 @@
 a {
   text-transform: uppercase;
   font-weight: 800;
+
 }
 #main-nav li {
 float: right;
 list-style-type: none;
 margin-right: 10px;
-color: rgb(233, 59, 59);
-
-
+color:#b003c0 ;
 }
+#main-nav a:hover {
+text-decoration: underline;
+}
+
+#sec-nav li {
+  text-align: center;
+  list-style-type: none;
+  margin-right: 5px;
+  display: inline;
+}
+
+nav a:hover {
+  text-transform: underline;
+}
+ 
 /* image */
 
 #hero-img {
-  height: 400px;
+  height: 500px;
   width: 60%;
   background-image: url('../images/hero-image.jpeg');
+ background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
+background-size: 100%;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+#decor-image {
+background-image: url('../images/decor-image.jpeg');
+height: 500px;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px;
+background-repeat: no-repeat;
 background-size: cover;
 margin-top: 1em;
 }
 
-
-  .yoga-box {   
-    background-color: #b841c8;
-    color: #92e2e8;
-    background-color: pink;
-    background-size: cover;
-    text-align: center;
-    width: 85%;
-    margin-left: 4em;
-    border-radius: 5px;
-  }
-  
-  .meditation-box {
-    border-radius: 5px;
-    background-color: lightblue;
-    color: #ffc800;
-    background-image: url(https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjU1LXNhc2ktMTUuanBn.jpg); 
-    text-align: center;
-    width: 80% ;
-    border-image-width: 100%;
-    margin-left: 2em;
-    font-weight: 500;
-    padding: 20px 60px;
-    font-size: 20px;
-    margin-bottom: 5em;
-    background-repeat: -y;
-  }
-  
-  .meditation-box h4 {
-    text-decoration: underline;
-    }
-
-    
-  .meditation-box p:hover {
-    background-color: #da0707;
-    color:  white;
-  }
-  .meditation-box  a:hover {
-    color: #d5207a
-  }
-  .meditation-box a {
-    color: white;
-  }
+/*why box*/
   .why-box {
-    text-align: left;
+    text-align: center;
     color: #506600;
-    background-color: gold;
-    width: 95%;
-    margin-left: 1em;
-    border: solid;
+    background-color: rgb(247, 214, 167);
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 5px;
     padding: 5px 5px;
-    font-weight: 500;
+    font-weight: 600;
+    margin-bottom: 5px;
   }
- 
+  #why li {
+    list-style-type: disc;
+    padding-left: 2em;
+    font-weight: 400;
+    margin-left: 5em;
+  }
 
-  
-  .types-of-yoga {
+/* Yoga style*/
+
+ .yoga-box {   
+    background-color: rgb(244, 219, 253);
+    color:b#000000;
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+   }
+
+.types-of-yoga {
     font-size: 20px;
     padding-bottom: 10em;
    border-style: solid;
     border-width: 2px;
     margin: 5px 30px 10px;
     padding: 5px 5px;
-    background-image: url("https://images.pexels.com/photos/5402181/pexels-photo-5402181.jpeg");
+    background-image: url("../images/yoga-image.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     width: 40%;
     height: 250px;
     display: inline-block;
     position: relative;
     overflow: scroll;
-  }
- 
+  } 
 
- 
-  .img2 {
-   margin: 5px 30%;
+  #yoga a {
+    color: rgb(135, 0, 135)
   }
- 
-
-  .types-of-yoga h3:hover {
+  #yoga a:hover {
+    text-decoration: underline;
+  }
+ .types-of-yoga h3:hover {
   color: #f5efdb;
   }
   
   #yoga p:hover {
-    background-color: pink;
+    background-color: rgb(249, 198, 238);
     color: black;
   }
-  
+ .float-right {
+    float: right;
+  }
+  .float-left {
+    float: left;
+  }
+/*  Meditation design*/
 
+  .meditation-box {
+    border-radius: 5px;
+    background-color: lightblue;
+    color: #ffc800;
+    background-image: url(../images/meditation-image.webp); 
+    text-align: center;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-bottom: 5em;
+   background-size: cover;  
+ }
+
+  #meditation {
+     text-align: center;
+     background-color: #ffc800;
+     color: #fbfcf6;
+     width: 85%;
+     height: 30px; 
+     bottom: 5px;
+     margin-right: auto;
+     margin-left: auto;
+     border-radius: 4px;
+  }
+  .meditation-box li {
+    letter-spacing: 1px;
+    margin-left: 4em;
+    
+  }
+ 
   footer {
-    background-color: #f5efdb;
+    background-color: #ceb04f;
     padding: 1em;
     position: fixed;
     text-align: center;
@@ -135,9 +189,10 @@ margin-top: 1em;
     z-index: 3;
     
   }
-  .float-right {
-    float: right;
+ 
+  /*Extra design features*/
+  #this-div {
+    visibility: hidden;
+    margin-top: 50em;
   }
-  .float-left {
-    float: left;
-  }
+ 
